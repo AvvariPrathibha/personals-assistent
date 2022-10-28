@@ -116,6 +116,6 @@ def sq(query):
             elif query in greetings:
                 speak(query+"sir")
             
-            elif 'shutdown' in query:
+            elif 'shutdown now' in query:
                 speak("as you say sir!!")
                 break
